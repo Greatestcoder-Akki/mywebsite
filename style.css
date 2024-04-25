@@ -27,6 +27,43 @@ span{
   display:inline-block;
   
   }
+@media(max-width:650px)
+{
+  h1 {
+    font-size: 3.5rem;
+    text-align:center;
+  }
+  
+  footer {
+    clear:left;
+    text-align: right;
+    color: midnightblue;
+  }
+  span{
+    color: midnightblue;
+  }
+  .card{
+    display:inline-block;
+    margin-bottom:30px;
+    width:100%;
+    text-align: justify;
+    }
+  .left>.tile-image
+  {
+    
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom:15px;
+  }
+  .right>.tile-image
+  {
+    
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+
+}
 .left>.tile-image
 {
   width:300px;
